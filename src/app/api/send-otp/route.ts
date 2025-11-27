@@ -13,6 +13,6 @@ export async function POST(req: Request) {
   });
 
   console.log("OTP (DEV ONLY):", otp);
-
+  
   return NextResponse.json({ success: true });
 }
